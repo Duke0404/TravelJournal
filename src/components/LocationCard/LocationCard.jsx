@@ -1,8 +1,10 @@
 import "./LocationCard.css"
 
-const CityCard = props =>
+// import img from {`../../images/${props.img}`}
+
+const LocationCard = props =>
     <div>
-        <img src={require(`../../images/${props.img}`)} title={props.name} alt={props.name} />
+        <img src={`../../images/${img}`} title={props.name} alt={props.name} />
         
         <h2>{props.name}</h2>
 
@@ -17,4 +19,4 @@ const CityCard = props =>
         <p>{props.details}</p>
     </div>
 
-export default CityCard
+export default LocationCard

@@ -1,9 +1,9 @@
 import "./App.css"
 
-import dataSource from "../../data/dataSource"
+import dataSource from "../../data/dataSource.js"
 
-import Titlebar from "../Titlebar/Titlebar"
-import LocationCard from "../LocationCard/LocationCard"
+import Titlebar from "../Titlebar/Titlebar.jsx"
+import LocationCard from "../LocationCard/LocationCard.jsx"
 
 const locationCardArray = dataSource.map(val => val = <LocationCard key={val.id} {...val} />)
 
