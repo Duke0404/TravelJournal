@@ -1,5 +1,8 @@
 import "./App.css"
 
-const App = () => <hr />
+import Titlebar from "../Titlebar/Titlebar"
+
+const App = () =>
+    <Titlebar />
 
 export default App
