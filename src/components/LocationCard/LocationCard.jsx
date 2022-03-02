@@ -1,10 +1,27 @@
+import { useEffect, useState }  from "react"
 import "./LocationCard.css"
 
-// import img from {`../../images/${props.img}`}
+const LocationCard = props => {
+    const [image, setImage] = useState()
+    const [loading, setLoading] = useState(true)
+    useEffect(
+        () => {
+            setLoading(true)
+            (
+                async () => {
+                    const img = await import(`../../images/${props.img}`)
+                    setImage(img.default)
+                    setLoading(false)
+                }
+            )()
+        },
+        [props.img]
+    )
 
-const LocationCard = props =>
-    <div>
-        <img src={`../../images/${img}`} title={props.name} alt={props.name} />
+    if(loading) return "Loading..."
+
+    return <div>
+        <img src={image} title={props.name} alt={props.name} width="100px" />
         
         <h2>{props.name}</h2>
 
@@ -18,5 +35,6 @@ const LocationCard = props =>
 
         <p>{props.details}</p>
     </div>
+}
 
 export default LocationCard
