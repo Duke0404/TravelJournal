@@ -4,14 +4,19 @@ import "./LocationCard.css"
 const LocationCard = props => {
     const [image, setImage] = useState()
     const [loading, setLoading] = useState(true)
-    useEffect(() => {
-        setLoading(true);
-        (async () => {
-            const img = await import(`../../images/${props.img}`)
-            setImage(img.default)
-            setLoading(false)
-        })()
-    }, [props.img])
+    useEffect(
+        () => {
+            setLoading(true);
+            (
+                async () => {
+                    const img = await import(`../../images/${props.img}`)
+                    setImage(img.default)
+                    setLoading(false)
+                }
+            )()
+        },
+        [props.img]
+    )
 
     if(loading) return "Loading..."
 
