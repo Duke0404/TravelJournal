@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500&display=swap');
 
 :root {
-  --accent-color: #ff799f;
+  --accent-color-1: #b59df7;
+  --accent-color-2: #ff799f;
   --text-color: #362731;
 }
 
@@ -12,14 +13,13 @@ body {
   color: var(--text-color);
 }
 
-h1 {
+h1, h2, p, span, div, img {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-h2 {
-  margin: 0;
-}
-
-p {
-  margin: 0;
+a {
+  color: var(--accent-color-2);
+  text-decoration: none;
 }

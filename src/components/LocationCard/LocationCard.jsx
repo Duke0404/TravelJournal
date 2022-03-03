@@ -1,5 +1,8 @@
 import { useEffect, useState }  from "react"
+
 import "./LocationCard.css"
+
+import mapIcon from "../../images/icons/map.svg"
 
 const LocationCard = props => {
     const [image, setImage] = useState()
@@ -22,13 +25,14 @@ const LocationCard = props => {
         return "Loading..."
 
     return (
-        <div>
-            <img src={image} title={props.name} alt={props.name} width="100px" />
+        <div className="card-container">
+            <img className="card-image" src={image} title={props.name} alt={props.name} />
 
-            <h2>{props.name}</h2>
+            <h2 className="card-title">{props.name}</h2>
 
             <a href={props.link} target="_blank" rel="noreferrer">
                 <div className="location-link">
+                    <img className="location-link-icon" src={mapIcon} alt="Location" />
                     <span>{props.address}</span>
                 </div>
             </a>
