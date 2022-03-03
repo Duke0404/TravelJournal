@@ -3,6 +3,8 @@
 :root {
   --accent-color-1: #b59df7;
   --accent-color-2: #ff799f;
+  --bg-color-1: white;
+  --bg-color-2: white;
   --text-color: #362731;
 }
 
@@ -10,6 +12,7 @@ body {
   margin: 0;
   padding: 1rem;
   font-family: 'League Spartan', sans-serif;
+  background-color: var(--bg-color-1);
   color: var(--text-color);
 }
 
@@ -22,4 +25,12 @@ h1, h2, p, span, div, img {
 a {
   color: var(--accent-color-2);
   text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-color-1: #2f2f2f;
+    --bg-color-2: #494454;
+    --text-color: white;
+  }
 }
