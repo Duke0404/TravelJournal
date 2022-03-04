@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "./static/css/main.6f0c49d1.css",
+    "main.js": "./static/js/main.647295fb.js",
+    "static/js/18.05939156.chunk.js": "./static/js/18.05939156.chunk.js",
+    "static/js/360.0c5e4220.chunk.js": "./static/js/360.0c5e4220.chunk.js",
+    "static/js/743.7e59aa6c.chunk.js": "./static/js/743.7e59aa6c.chunk.js",
+    "static/js/579.98e5c392.chunk.js": "./static/js/579.98e5c392.chunk.js",
+    "static/js/749.5ea84b16.chunk.js": "./static/js/749.5ea84b16.chunk.js",
+    "static/media/auschwitz.jpg": "./static/media/auschwitz.99eb14581efa22cc4ff6.jpg",
+    "static/media/salt.jpg": "./static/media/salt.4d274cb8a6b6e4daf5d8.jpg",
+    "static/media/museum.jpg": "./static/media/museum.a432c9b2d371d8f8ba8c.jpg",
+    "static/media/schindler.jpg": "./static/media/schindler.0e4c2b7357744068f1aa.jpg",
+    "index.html": "./index.html",
+    "static/media/map.svg": "./static/media/map.237786c6a24c3b91ac565ad55ba92a5c.svg",
+    "main.6f0c49d1.css.map": "./static/css/main.6f0c49d1.css.map",
+    "main.647295fb.js.map": "./static/js/main.647295fb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6f0c49d1.css",
+    "static/js/main.647295fb.js"
+  ]
+}

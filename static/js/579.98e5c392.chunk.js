@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktravel_journal=self.webpackChunktravel_journal||[]).push([[579],{579:function(a,e,t){a.exports=t.p+"static/media/salt.4d274cb8a6b6e4daf5d8.jpg"}}]);

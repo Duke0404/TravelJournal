@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktravel_journal=self.webpackChunktravel_journal||[]).push([[749],{749:function(e,a,s){e.exports=s.p+"static/media/schindler.0e4c2b7357744068f1aa.jpg"}}]);

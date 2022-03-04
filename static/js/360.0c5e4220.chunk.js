@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktravel_journal=self.webpackChunktravel_journal||[]).push([[360],{360:function(a,e,c){a.exports=c.p+"static/media/map.237786c6a24c3b91ac56.svg"}}]);

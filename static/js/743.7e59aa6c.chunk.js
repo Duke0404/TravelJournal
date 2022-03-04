@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktravel_journal=self.webpackChunktravel_journal||[]).push([[743],{743:function(a,e,u){a.exports=u.p+"static/media/museum.a432c9b2d371d8f8ba8c.jpg"}}]);
